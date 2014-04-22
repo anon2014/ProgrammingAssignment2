@@ -1,7 +1,7 @@
 ## This assignment is to write a pair of functions that cache the inverse 
 ## of a matrix, and use the cached version if the inverse has already been 
 ## computed (and the matrix has not changed) rather than computing it repeatedly
-
+## Usage: cacheSolve(makeCacheMatrix(A)), where A in an invertible matrix
 
 ## makeCacheMatrix function 
 ## This function creates a special "matrix" object that caches its inverse
